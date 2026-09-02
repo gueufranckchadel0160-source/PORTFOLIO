@@ -14,126 +14,155 @@ export interface Project {
 
 export const PROJECTS_DATA: Project[] = [
   {
-    id: "ecojeune-ci",
-    title: "ECOJEUNE CI / EcoLife",
-    subtitle: "Sensibilisation à l’écologie et aux bonnes pratiques environnementales",
-    category: "UX/UI Design & Conception",
-    image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80",
-    context: "Projet d’apprentissage et de recherche axé sur la sensibilisation des jeunes citoyens en Côte d’Ivoire aux enjeux environnementaux et au développement durable.",
-    problem: "Le manque de sensibilisation ludique et accessible sur les écogestes du quotidien et la gestion des déchets urbains chez les jeunes générations.",
-    solution: "Conception d’un parcours utilisateur intuitif et d’une interface mobile moderne (Wireframes et Prototypage) proposant des guides pratiques, des éco-défis et un suivi d'impact environnemental local.",
-    tools: ["Figma", "Wireframes", "Parcours utilisateur", "Principes UX", "Prototypage interactif"],
-    learnings: "Approfondissement de la méthodologie UX (recherche utilisateur, wireframing, tests d'ergonomie) et importance de l'accessibilité visuelle pour un public jeune.",
-    badge: "UX/UI Design"
+    id: "batilec-creation",
+    title: "Supports Publicitaires & Visuels - Batilec Plus",
+    subtitle: "Création d’affiches, visuels réseaux sociaux et vidéos promotionnelles",
+    category: "Infographie & Design",
+    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=800&q=80",
+    context: "Réalisations graphiques et multimédias dans le cadre de l'expérience professionnelle chez BATILEC PLUS (2025-2026).",
+    problem: "Besoin de renforcer l'impact visuel de la marque, d'animer les réseaux sociaux avec des visuels percutants et de produire des supports publicitaires professionnels.",
+    solution: "Conception d'affiches publicitaires attractives, de bannières pour les réseaux sociaux et de vidéos promotionnelles dynamiques valorisant les services et produits de l'entreprise.",
+    tools: ["Photoshop", "Figma", "Canva", "Capcut", "Infographie"],
+    learnings: "Maîtrise des codes de la communication visuelle d'entreprise, respect des chartes graphiques et rapidité de production multimédia.",
+    badge: "Infographie"
   },
   {
-    id: "digifemmes-kotlin",
-    title: "Application Android Kotlin",
-    subtitle: "Projet d'apprentissage - Formation DigiFemmes Côte d’Ivoire",
-    category: "Développement Mobile Android",
-    image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=800&q=80",
-    context: "Projet pratique réalisé dans le cadre de la formation intensive en développement d’applications mobiles Android avec Kotlin chez DigiFemmes Côte d’Ivoire.",
-    problem: "Mettre en pratique l'architecture moderne Android, la gestion du cycle de vie des Activity et la synchronisation de données en temps réel pour une application mobile fonctionnelle.",
-    solution: "Développement d’une application Android native en Kotlin structurée avec Android Studio, intégration de l'authentification sécurisée, persistance cloud et notifications push.",
-    tools: ["Kotlin", "Android Studio", "Android SDK", "Firebase Auth", "Cloud Firestore", "Firebase Cloud Messaging", "Activity Lifecycle"],
-    learnings: "Maîtrise de la syntaxe Kotlin, gestion rigoureuse du cycle de vie des Activity, configuration des builds Gradle et intégration fluide des services cloud Firebase.",
-    badge: "Mobile Android"
+    id: "sgbt-print",
+    title: "Impression & Techniques de Création - SGBT Print",
+    subtitle: "Conception d'affiches, logos et flyers publicitaires",
+    category: "Design Graphique & Impression",
+    image: "https://images.unsplash.com/photo-1562577309-2592ab84b1bc?auto=format&fit=crop&w=800&q=80",
+    context: "Immersion professionnelle et technique chez SGBT PRINT (Juillet - Septembre 2025).",
+    problem: "Répondre aux demandes variées des clients en matière de supports imprimés de qualité professionnelle.",
+    solution: "Apprentissage approfondi et application des techniques de création graphique (affiches, logos, flyers) et gestion du processus d'impression.",
+    tools: ["Photoshop", "Canva", "Figma", "Techniques d'impression"],
+    learnings: "Compréhension des contraintes techniques d'impression (CMJN, formats, résolutions) et rigueur dans la déclinaison des identités visuelles.",
+    badge: "SGBT Print"
   },
   {
-    id: "ecitoyen-ci",
-    title: "e-Citoyen CI",
-    subtitle: "Digitalisation et accès aux services administratifs en Côte d’Ivoire",
-    category: "Conception & Développement Web / Mobile",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80",
-    context: "Projet académique et personnel explorant les solutions numériques pour simplifier l'accès aux démarches administrutives citoyennes.",
-    problem: "La complexité et la lenteur dans l'accès aux informations pratiques et aux formulaires administratifs pour les citoyens.",
-    solution: "Architecture d'un prototype d'interface centralisant les informations clés, structurant les parcours usagers et offrant des repères clairs basés sur les besoins réels.",
-    tools: ["UI/UX Design", "HTML / CSS", "JavaScript", "Bases de données", "SQL", "Analyse des besoins"],
-    learnings: "Importance de la structuration des données administratives, simplification des parcours utilisateurs complexes et bases de la persistance relationnelle.",
-    badge: "Web & Informatique"
+    id: "moov-ci-fibre",
+    title: "Sensibilisation & Promotion Commerciale - Moov CI",
+    subtitle: "Agent Promoteur Fibre Optique",
+    category: "Commercial & Sensibilisation",
+    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
+    context: "Mission de promotion et de sensibilisation pour Moov Africa Côte d’Ivoire (Juillet - Septembre 2024).",
+    problem: "Informer le grand public des avantages de la fibre optique et contribuer au développement commercial des offres internet.",
+    solution: "Contribution commerciale active, présentation claire et argumentée des offres télécoms, et sensibilisation de proximité auprès de la clientèle.",
+    tools: ["Relation client", "Communication", "Argumentaire commercial", "Sensibilisation"],
+    learnings: "Développement du sens du contact, de l'écoute active et de la persuasion commerciale sur le terrain.",
+    badge: "Moov CI"
   }
 ];
 
 export const SKILLS_DATA = {
   uxui: [
-    "Conception d’interfaces utilisateur",
-    "Wireframes",
-    "Prototypage",
+    "Conception d’interfaces utilisateur (UI/UX)",
+    "Wireframes & Prototypage",
     "Parcours utilisateur",
-    "Principes UX",
-    "Design d’interfaces modernes"
+    "Design d’interfaces web et mobiles",
+    "Principes ergonomiques"
   ],
   mobile: [
-    "Kotlin",
-    "Android Studio",
-    "Android",
-    "Firebase",
-    "Authentification Firebase",
-    "Cloud Firestore",
-    "Firebase Cloud Messaging",
-    "Gestion du cycle de vie des Activity",
-    "Build et Release Android"
+    "Infographie créative",
+    "Communication visuelle",
+    "Notion des Outils IA",
+    "Création de supports publicitaires",
+    "Montage et réalisation vidéo"
   ],
   webIt: [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "SQL",
-    "Bases de données",
-    "Notions de développement d’applications"
+    "Photoshop",
+    "Figma",
+    "Canva",
+    "Capcut",
+    "Bases de développement web et mobile (Licence 2 UVCI)"
   ]
 };
+
+export const EXPERIENCES_DATA = [
+  {
+    role: "Assistant polyvalent & infographe",
+    company: "BATILEC PLUS",
+    period: "2025 - 2026",
+    tasks: [
+      "Création d'affiches publicitaires percutantes.",
+      "Conception de visuels professionnels pour les réseaux sociaux.",
+      "Réalisation de vidéos promotionnelles et montage."
+    ]
+  },
+  {
+    role: "Assistant en infographie",
+    company: "SGBT PRINT",
+    period: "Juill 2025 - Sept 2025",
+    tasks: [
+      "Apprentissage et application des techniques de création (Affiche, logo, flyer).",
+      "Préparation des fichiers et gestion de l'impression professionnelle."
+    ]
+  },
+  {
+    role: "Agent Promoteur Fibre Optique",
+    company: "Moov CI",
+    period: "Juill 2024 - Sept 2024",
+    tasks: [
+      "Contribution commerciale sur le terrain.",
+      "Présentation et vente des offres Internet fibre.",
+      "Sensibilisation des clients aux technologies très haut débit."
+    ]
+  }
+];
 
 export const TIMELINE_DATA = [
   {
     step: 1,
-    title: "Études en informatique",
-    description: "Apprentissage des fondamentaux de l'informatique, des algorithmes, de la logique de programmation et des architectures logicielles."
+    title: "BEPC – Lycée Moderne Cocody-angré",
+    description: "2017-2018 : Obtention du BEPC et acquisition des bases scolaires fondamentales à Abidjan."
   },
   {
     step: 2,
-    title: "Formation UX/UI Design",
-    description: "Formation spécialisée axée sur la conception d’interfaces, l’expérience utilisateur, la structuration des parcours et le prototypage."
+    title: "BAC D – Groupe Scolaire Saint-cyr de Port-bouet",
+    description: "2021-2022 : Obtention du Baccalauréat série D, orientant vers les sciences et l'informatique."
   },
   {
     step: 3,
-    title: "Formation Android Kotlin avec DigiFemmes Côte d’Ivoire",
-    description: "Formation intensive en développement mobile natif : Kotlin, Android Studio, architecture, cycle de vie et services Firebase."
+    title: "Licence 2 (DAS) – Université virtuelle de Côte d’Ivoire (UVCI)",
+    description: "Depuis 2025 : Cursus en Développement d’application et E-service (DAS)."
   },
   {
     step: 4,
-    title: "Développement de projets personnels et académiques",
-    description: "Mise en pratique à travers la conception de projets réels (ECOJEUNE CI, applications Android, e-Citoyen CI)."
-  },
-  {
-    step: 5,
-    title: "Progression vers le développement logiciel et la conception",
-    description: "Volonté constante de progresser dans la création de solutions numériques utiles, intuitives et adaptées aux utilisateurs."
+    title: "Formations & Expériences professionnelles (Infographie & UI/UX)",
+    description: "2024-2026 : Expériences pratiques chez Moov CI, SGBT Print et Batilec Plus, consolidant l'expertise en infographie, design UI/UX et outils IA."
   }
 ];
 
 export const FORMATIONS_DATA = [
   {
-    title: "Formation en développement d’applications mobiles Android – Kotlin",
-    org: "DigiFemmes Côte d’Ivoire",
-    description: "Compétences acquises : architecture des applications, cycle de vie des Activity, intégration de Firebase (Authentication, Firestore, Cloud Messaging), bonnes pratiques de build et release."
+    title: "Licence 2 en Développement d’application et E-service (DAS)",
+    org: "Université virtuelle de Côte d’Ivoire (UVCI)",
+    description: "Depuis 2025 : Formation supérieure en informatique, technologies web, mobiles et services numériques."
   },
   {
-    title: "Formation UX/UI Design",
-    org: "Parcours Spécialisé Design & Expérience Utilisateur",
-    description: "Formation axée sur la conception d’interfaces, l’expérience utilisateur, la structuration des parcours et le prototypage."
+    title: "BAC D",
+    org: "Groupe Scolaire Saint-cyr de Port-bouet",
+    description: "2021-2022 : Enseignement secondaire scientifique."
   },
   {
-    title: "Informatique et Développement d’Applications",
-    org: "Études Supérieures en Informatique",
-    description: "Étudiant en informatique, avec un intérêt particulier pour le développement logiciel, le mobile et le design d’interfaces."
+    title: "BEPC",
+    org: "Lycée Moderne Cocody-angré",
+    description: "2017-2018 : Diplôme de fin de premier cycle."
   }
 ];
 
+export const LOGICIELS_DATA = [
+  { name: "Photoshop", category: "Création graphique & Retouche" },
+  { name: "Figma", category: "UI/UX Design & Prototypage" },
+  { name: "Canva", category: "Design rapide & Supports" },
+  { name: "Capcut", category: "Montage vidéo & Réalisation" }
+];
+
 export const CONTACT_INFO = {
-  name: "Franck Chadel",
-  email: "gueufranckchadel0160@gmail.com",
-  phone: "+225 07 00 00 00 00", // Standard professional placeholder format or real if user provides
+  name: "Gueu Franck Chadel",
+  title: "Infographe & UX/UI Design",
+  emails: ["franck1.gueu@uvci.edu.ci", "gueufranckchadel0160@gmail.com"],
+  phones: ["+225 01 60 17 25 72", "+225 05 65 69 76 94"],
   linkedin: "https://linkedin.com/in/franck-chadel",
   github: "https://github.com/franckchadel",
   location: "Côte d’Ivoire"
